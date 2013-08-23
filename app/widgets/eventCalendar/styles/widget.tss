@@ -1,0 +1,111 @@
+'#weekView': {
+	top: 0,
+	left: 0,
+	height: Ti.UI.SIZE
+}
+
+'#previousImage': {
+	top: 0,
+	left: 10
+}
+
+'#nextImage': {
+	top: 0,
+	right: 10
+}
+
+'#borderImage': {
+	right: 0,
+	bottom: 0
+}
+
+'#weekLabel': {
+	left: 0,
+	right: 0,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	font: {
+		fontSize: 16,
+		fontWeight: 'bold'
+	}
+}
+
+'#table': {
+	top: 45
+}
+
+'#event_row': {
+	height: 70
+}
+
+'#event_date': {
+	top: 0,
+	left: 0,
+	width: 70
+}
+
+'#dateImage': {
+	top: 10,
+	left: 10
+},
+
+'#date_dow': {
+	top: 14,
+	left: 22,
+	color: '#ffffff',
+	font: {
+		fontSize: 14
+	}
+}
+
+'#date_day': {
+	top: 25,
+	left: 22,
+	color: '#ffffff',
+	font: {
+		fontSize: 30,
+		fontWeight: 'bold'
+	}
+}
+
+'#event_description': {
+	top: 0,
+	left: 70,
+	right: 10
+}
+
+
+'#title': {
+	top: 2,
+	left: 2,
+	right: 20,
+	height: 40,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	minimumFontSize: 15,
+	font: {
+		fontSize: 15,
+		fontWeight: 'bold'
+	}
+
+}
+
+'#time': {
+	top: 35,
+	left: 20,
+	font: {
+		fontSize: 14
+	}
+}
+
+'#location': {
+	top: 50,
+	left: 20,
+	font: {
+		fontSize: 14
+	}
+}
+
+'#disclosureImage': {
+	top: 0,
+	bottom: 0,
+	right: 0
+}

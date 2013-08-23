@@ -1,0 +1,4 @@
+'Window': {
+	layout: 'vertical',
+	backgroundColor: '#ffffff'
+}

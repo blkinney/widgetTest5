@@ -1,0 +1,28 @@
+<Alloy>
+	<Collection src='dummy' id='events' instance='true'/>
+	<Window id='win'>
+		<View id='weekView'>
+			<ImageView id='previousImage' image='left_arrow.png' onClick="doClickPrev"/>
+			<Label id='weekLabel'/>
+			<ImageView id='nextImage' image='right_arrow.png' onClick="doClickNext"/>
+			<ImageView id='borderImage' image='separator.png'/>
+		</View>
+		<TableView id='table' dataCollection='$.events' dataFunction='updateUi'>
+			<TableViewRow id='event_row' selectionStyle='Titanium.UI.iPhone.TableViewCellSelectionStyle.NONE'>
+				<View id='event_row_view'>
+					<View id='event_date'>
+						<ImageView id='dateImage' image='event_small_icon.png'>
+						<Label id='date_dow'/>
+						<Label id='date_day'/>
+					</View>
+					<View id='event_description'>
+						<Label id='title' text='test'/>
+						<Label id='time'/>
+						<Label id='location'/>
+					</View>
+					<ImageView id='disclosureImage' image='right_arrow.png'/>	
+				</View>
+			</TableViewRow>
+		</TableView>
+	</Window>
+</Alloy>
